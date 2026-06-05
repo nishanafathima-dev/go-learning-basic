@@ -121,3 +121,12 @@
 //     fmt.Printf("Default value of bool: %t\n", b)
 //     fmt.Printf("Default value of string: %q\n", s)
 // }
+
+// package main 
+// import "fmt"
+
+// var age int = 30
+// func main(){
+//     fmt.Printf("My age is %f\n", float64(age)) //float64 is a floating-point number type that can hold values with a decimal point. By converting the integer variable age to float64, we can print it as a floating-point number with a decimal point, even though it will still represent the same value of 30.
+//     fmt.Printf("My age is %d\n", age)
+// }
